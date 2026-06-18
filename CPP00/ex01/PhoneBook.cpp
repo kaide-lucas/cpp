@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   phonebook.cpp                                      :+:      :+:    :+:   */
+/*   PhoneBook.cpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kaidda-s <kaidda-s@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 15:09:08 by kaidda-s          #+#    #+#             */
-/*   Updated: 2026/06/16 19:01:53 by kaidda-s         ###   ########.fr       */
+/*   Updated: 2026/06/17 21:37:58 by kaidda-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "phonebook.hpp"
-#include "contact.hpp"
+#include "PhoneBook.hpp"
+#include "Contact.hpp"
 
 void PhoneBook::add_contact(void)
 {
@@ -38,5 +38,5 @@ void PhoneBook::add_contact(void)
     
     if(contact_count < 8)
         contact_count++;
-    index_add = (index_add + 1) % 8; // Move para o
+    index_add = (index_add + 1) % 8;
 }

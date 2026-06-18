@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   phonebook.hpp                                      :+:      :+:    :+:   */
+/*   PhoneBook.hpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kaidda-s <kaidda-s@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/06 14:45:54 by kaidda-s          #+#    #+#             */
-/*   Updated: 2026/06/16 17:01:49 by kaidda-s         ###   ########.fr       */
+/*   Updated: 2026/06/17 22:14:48 by kaidda-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@
 class PhoneBook
 {
 private:
-    Contact contacts[8];           // Array de 8 contatos (sem alocação dinâmica)
-    int     index_add;             // Índice onde adicionar próximo contato (0-7)
-    int     contact_count;         // Quantos contatos existem (0-8)
+    Contact contacts[8];
+    int     index_add;
+    int     contact_count;
 
 public:
     PhoneBook();
