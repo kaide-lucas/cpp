@@ -1,0 +1,13 @@
+display_contacts()
+│
+├── SE contact_count == 0
+│   └── avisa "nenhum contato" e retorna
+│
+├── imprime o cabeçalho da tabela
+│   (index | first name | last name | nickname)
+│
+└── PARA i de 0 até contact_count
+    ├── pega contacts[i]
+    ├── formata first_name, last_name, nickname (format_column)
+    └── imprime a linha: (i+1) | first | last | nick
+        cada coluna com setw(10) alinhado à direita
